@@ -1,0 +1,32 @@
+ul::-webkit-scrollbar {
+  display: none;
+}
+
+.borderColorShadow {
+  background-color: #f7f2f9;
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
+}
+
+.dropMenu {
+  height: 400px;
+  overflow-y: scroll;
+  background-color: #f7f2f9;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+/* style={{
+    height: "400px",
+    overflowY: "scroll",
+
+    backgroundColor: "#F7F2F9",
+    borderBottomLeftRadius: "16px",
+    borderBottomRightRadius: "16px",
+  }} */
+
+/* .borderColorShadow {
+    backgroundColor: "#F7F2F9",
+    boxShadow: "0px 1px 3px 1px rgba(0, 0, 0, 0.15)",
+    borderRadius: "50px",
+} */
