@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react";
 import "./index.css";
 
+// const API_KEY_1 = "9d9588302emsh58804fa5a30d4d9p1b947ajsn659ea6ae2269";
+// const API_KEY_2 = "6e28a6c431msh0e9881c32ad023bp1037b5jsneeb2674a6b68";
+// const API_KEY_3 = "31e52734bdmshab176c6eee229bdp1418e5jsn20cdd91ff8a8";
+
 function App() {
   const [languages, setLanguages] = useState([]);
   const [langCode1, setLangCode1] = useState("");
@@ -19,7 +23,7 @@ function App() {
         headers: {
           "content-type": "application/x-www-form-urlencoded",
           "X-RapidAPI-Key":
-            "9d9588302emsh58804fa5a30d4d9p1b947ajsn659ea6ae2269",
+            "31e52734bdmshab176c6eee229bdp1418e5jsn20cdd91ff8a8",
           "X-RapidAPI-Host": "text-translator2.p.rapidapi.com",
         },
         body: new URLSearchParams({
@@ -33,7 +37,6 @@ function App() {
         const response = await fetch(url, options);
         const result = await response.json();
         setTexttextReady(result.data.translatedText);
-        console.log(result.data.translatedText, "KJHBAIUGBAIDIYDBA");
       } catch (error) {
         console.error(error);
       }
@@ -47,7 +50,7 @@ function App() {
         method: "GET",
         headers: {
           "X-RapidAPI-Key":
-            "6e28a6c431msh0e9881c32ad023bp1037b5jsneeb2674a6b68",
+            "31e52734bdmshab176c6eee229bdp1418e5jsn20cdd91ff8a8",
           "X-RapidAPI-Host": "text-translator2.p.rapidapi.com",
         },
       };
