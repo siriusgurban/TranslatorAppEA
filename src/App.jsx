@@ -4,6 +4,7 @@ import "./index.css";
 // const API_KEY_1 = "9d9588302emsh58804fa5a30d4d9p1b947ajsn659ea6ae2269";
 // const API_KEY_2 = "6e28a6c431msh0e9881c32ad023bp1037b5jsneeb2674a6b68";
 // const API_KEY_3 = "31e52734bdmshab176c6eee229bdp1418e5jsn20cdd91ff8a8";
+// const API_KEY_4 = "373ee143e8msh1441acd3a498ac6p19cbd2jsnb989971cc502";
 
 function App() {
   const [languages, setLanguages] = useState([]);
@@ -23,7 +24,7 @@ function App() {
         headers: {
           "content-type": "application/x-www-form-urlencoded",
           "X-RapidAPI-Key":
-            "31e52734bdmshab176c6eee229bdp1418e5jsn20cdd91ff8a8",
+            "373ee143e8msh1441acd3a498ac6p19cbd2jsnb989971cc502",
           "X-RapidAPI-Host": "text-translator2.p.rapidapi.com",
         },
         body: new URLSearchParams({
